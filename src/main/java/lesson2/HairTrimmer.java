@@ -22,6 +22,10 @@ public class HairTrimmer
 		this.trimmerWorkTime = trimmerWorkTime;
 	}
 	
+	public HairTrimmer() {
+		
+	}
+	
 	public void startTrimmer() {
 		setTrimmerSpeed(getTrimmerSpeed() + 1);
 	}

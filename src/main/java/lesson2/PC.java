@@ -22,6 +22,10 @@ public class PC
 		this.hardDriveMemory = hardDriveMemory;
 	}
 	
+	public PC() {
+		
+	}
+	
 	public void installApp () {
 		setHardDriveMemory(getHardDriveMemory() - 50);
 	}

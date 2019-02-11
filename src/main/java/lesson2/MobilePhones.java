@@ -22,6 +22,10 @@ public class MobilePhones
 		this.phoneCallRecorder = phoneCallRecorder;
 	}
 	
+	public MobilePhones() {
+		
+	}
+	
 	public void startCall() {
 		setPhoneProcessorTemperature(getPhoneProcessorTemperature() + 5);
 	}

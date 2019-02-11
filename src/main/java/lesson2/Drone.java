@@ -22,6 +22,10 @@ public class Drone
 		this.smartphoneControl = smartphoneControl;
 	}
 	
+	public Drone() {
+		
+	}
+	
 	public void startVideoRecording() {
 		setDroneFlightTime(getDroneFlightTime() - 5);
 	}

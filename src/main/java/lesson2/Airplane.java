@@ -22,6 +22,10 @@ public class Airplane
 		this.airplaneAutopilot = airplaneAutopilot;
 	}
 	
+	public Airplane() {
+		
+	}
+	
 	public void enableAutopilot() {
 		setAirplaneAutopilot(true);
     }
