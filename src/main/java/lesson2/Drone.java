@@ -26,7 +26,7 @@ public class Drone
 		setDroneFlightTime(getDroneFlightTime() - 5);
 	}
 	
-	private void enableSmartControl() {
+	public void enableSmartControl() {
 		setSmartphoneControl(true);
 	}
 }
