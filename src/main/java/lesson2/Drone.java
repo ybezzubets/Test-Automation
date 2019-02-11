@@ -24,9 +24,9 @@ public class Drone
 	
 	public void startVideoRecording() {
 		setDroneFlightTime(getDroneFlightTime() - 5);
-    }
+	}
 	
 	private void enableSmartControl() {
 		setSmartphoneControl(true);
-    }
+	}
 }
