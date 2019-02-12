@@ -40,5 +40,4 @@ public class Tricopter extends Drone
 	public void flightHome() {
 		setDroneGPS(true);
 	}	
-
 }
