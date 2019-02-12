@@ -1,6 +1,6 @@
 package lesson2;
 
-public class TransformerBook
+public class TransformerBook extends PC
 
 {
 	private int transformerDisplayDiagonal;

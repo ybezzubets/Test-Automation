@@ -1,6 +1,6 @@
 package lesson2;
 
-public class ChromeBook
+public class ChromeBook extends PC
 
 {
 	private int osVersion;

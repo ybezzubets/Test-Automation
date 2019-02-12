@@ -1,6 +1,6 @@
 package lesson2;
 
-public class IosSmartphone
+public class IosSmartphone extends MobilePhones
 
 {
 	private int iosVersion;

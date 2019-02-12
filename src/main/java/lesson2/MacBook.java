@@ -1,6 +1,6 @@
 package lesson2;
 
-public class MacBook
+public class MacBook extends PC
 
 {
 	private String macBookName;
