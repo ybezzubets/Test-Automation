@@ -5,10 +5,6 @@ public class WindowsSmartphone extends MobilePhones
 {
 	private int smartphoneVersionOS;
 	private String smartphoneBrand;
-	
-	public WindowsSmartphone(int i, String string) {
-	
-	}
 
 	public String getSmartphoneBrand() {
 		return smartphoneBrand;
@@ -24,6 +20,11 @@ public class WindowsSmartphone extends MobilePhones
 	
 	public void setSmartphoneVersionOS(int smartphoneVersionOS) {
 		this.smartphoneVersionOS = smartphoneVersionOS;
+	}
+	
+	public WindowsSmartphone(int smartphoneVersionOS, String smartphoneBrand) {
+		this.setSmartphoneVersionOS(smartphoneVersionOS);
+		this.setSmartphoneBrand(smartphoneBrand);	
 	}
 	
 	public static void main(String[] args) {
