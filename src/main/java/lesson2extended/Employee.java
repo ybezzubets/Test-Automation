@@ -5,11 +5,11 @@ import java.util.Set;
 
 public class Employee extends Man{
 	private String position;
-    private IdCard iCard;
-    private Set<Room> room = new HashSet<Room>();
-    private Department department;
-    private Set<PastPosition> pastPosition = new HashSet<PastPosition>();
-    public Employee(String n, String s, String p){
+	private IdCard iCard;
+	private Set<Room> room = new HashSet<Room>();
+	private Department department;
+	private Set<PastPosition> pastPosition = new HashSet<PastPosition>();
+	public Employee(String n, String s, String p){
         name = n;
         surname = s;
         position = p;
