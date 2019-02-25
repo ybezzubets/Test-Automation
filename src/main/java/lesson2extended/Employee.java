@@ -1,8 +1,12 @@
 package lesson2extended;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class Employee extends Man{
 	private String position;
     private IdCard iCard;
+    private Set<Room> room = new HashSet<Room>();
     public Employee(String n, String s, String p){
         name = n;
         surname = s;
@@ -19,5 +23,14 @@ public class Employee extends Man{
     }
     public IdCard getIdCard(){
         return iCard;
+    }
+    public void setRoom(Room newRoom){
+        room.add(newRoom);
+    }
+    public Set<Room> getRoom(){
+        return room;
+    }
+    public void deleteRoom(Room r){
+        room.remove(r);
     }
 }
